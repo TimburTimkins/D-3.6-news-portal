@@ -1,0 +1,13 @@
+<html>
+
+{% load custom_filters %}
+
+<body>
+
+    <h1>{{ new.name }}</h1>
+    <h1>{{ new.text|censor }}</h1>
+    <h1>{{ new.date_on|date:'d M Y' }}</h1>
+
+</body>
+
+</html>
